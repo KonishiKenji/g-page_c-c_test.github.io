@@ -79,7 +79,7 @@
   "homepage": "https://konishikenji.github.io/g-page_c-c_test.github.io/",
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "react-scripts build && move build docs",
+    "build": "react-scripts build",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
